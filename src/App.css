@@ -4,16 +4,26 @@ html, body, .root {
 body {
   line-height: 1.5;
 }
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
 body, .app {
-  background: white;
+background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+font-weight:bolder;
 }
 
 /* main page */
 
 .list-books-title {
-  padding: 10px 0;
-  background: #2e7c31;
-  text-align: center;
+padding: 10px 0;
+background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
+text-align: center;
+font-size:23px;
 }
 .list-books-title h1 {
   font-weight: 400;

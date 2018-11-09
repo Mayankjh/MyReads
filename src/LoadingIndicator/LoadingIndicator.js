@@ -5,7 +5,7 @@ class LoadingIndicator extends Component {
         return (
             <div className="loading-indicator">
                 <img src="/loading.svg" alt="Loading" />
-                <span>Please wait while you process your request.</span>
+                <span>Please wait while we process your request...</span>
             </div>
         )
     }
